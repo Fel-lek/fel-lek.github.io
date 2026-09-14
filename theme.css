@@ -1,0 +1,25 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    font-weight: bold;
+}
+
+#taskbar
+{
+    height: 60px;
+}
