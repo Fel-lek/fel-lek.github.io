@@ -2,24 +2,22 @@ body
 {
     background-color: black;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 
+    margin-top: 1rem;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
 a
 {
-    color: white;
+    color: rgb(200, 200, 200);
     text-decoration: none;
+    border-radius: 8px;
 }
 
 a:hover
 {
+    color: white;
     font-weight: bold;
-}
-
-#taskbar
-{
-    height: 60px;
 }

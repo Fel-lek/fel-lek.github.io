@@ -1,0 +1,55 @@
+.taskbar
+{
+    width: 100%;
+    height: 3rem;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.taskbar a
+{
+    box-sizing: border-box;
+
+    height: 40px;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+}
+
+.taskbar a:nth-child(1) { width: 65px; }   /* HOME */
+.taskbar a:nth-child(2) { width: 135px; }  /* EMPLOYMENT */
+.taskbar a:nth-child(3) { width: 105px; }  /* EDUCATION */
+.taskbar a:nth-child(4) { width: 105px; }  /* PROJECTS */
+#contact { width: 120px; }                 /* CONTACT ME */
+
+.taskbar a:hover
+{
+    background-color: rgba(128, 128, 128, 0.5);
+    font-weight: bold;
+}
+
+.taskbar a.active
+{
+    background-color: rgba(128, 128, 128, 0.5);
+    color: rgb(157, 0, 255);
+    font-weight: bold;
+}
+
+#contact
+{
+    margin-left: auto;
+    background-color: rgb(31, 173, 147);
+}
+
+#contact.active
+{
+    color: rgb(81, 0, 131);
+}
