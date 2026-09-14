@@ -79,6 +79,8 @@
     align-items: center;
     justify-content: center;
 
+    text-align: center;
+
     border-right: 1px solid rgb(45, 45, 45);
 
     background-color: rgb(20, 20, 20);
@@ -89,6 +91,7 @@
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin: 3px;
 }
 
 .education-content
@@ -225,6 +228,79 @@
 .education-projects a:hover
 {
     color: white;
+}
+
+.education-grade
+{
+    margin: -8px 0 15px;
+
+    color: white;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.education-grades
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+    margin-top: 30px;
+}
+
+.education-grade-entry
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px 15px;
+
+    border: 1px solid rgb(45, 45, 45);
+    border-radius: 7px;
+
+    background-color: rgb(20, 20, 20);
+}
+
+.education-grade-subject
+{
+    color: rgb(190, 190, 190);
+
+    font-size: 15px;
+}
+
+.education-grade-value
+{
+    min-width: 32px;
+
+    text-align: center;
+
+    color: rgb(157, 0, 255);
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 800px)
+{
+    .education-grades
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+.education-entry:not(:last-child)
+{
+    margin-bottom: 2rem;
+}
+
+.education-grade-value.discontinued
+{
+    color: rgb(120, 120, 120);
+
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 800px)
