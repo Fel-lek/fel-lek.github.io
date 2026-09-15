@@ -1,0 +1,162 @@
+#contact-page
+{
+    max-width: 900px;
+
+    margin: 5rem auto;
+    padding-bottom: 5rem;
+}
+
+.contact-card
+{
+    padding: 50px;
+
+    border: 1px solid rgb(45, 45, 45);
+    border-radius: 12px;
+
+    background-color: rgb(15, 15, 15);
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.contact-header
+{
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.contact-type
+{
+    color: rgb(157, 0, 255);
+
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.contact-header h1
+{
+    margin: 10px 0 15px;
+
+    color: white;
+
+    font-size: 48px;
+}
+
+.contact-header p
+{
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    color: rgb(180, 180, 180);
+
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.contact-options
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-option
+{
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+
+    border: 1px solid rgb(45, 45, 45);
+    border-radius: 10px;
+
+    background-color: rgb(20, 20, 20);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.contact-option:hover
+{
+    transform: translateX(5px);
+
+    border-color: rgb(100, 100, 100);
+
+    background-color: rgb(25, 25, 25);
+
+    color: white;
+}
+
+.contact-icon
+{
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+
+    border-radius: 8px;
+
+    background-color: rgb(157, 0, 255);
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-content
+{
+    flex: 1;
+}
+
+.contact-content h2
+{
+    margin: 0 0 4px;
+
+    color: white;
+
+    font-size: 20px;
+}
+
+.contact-content p
+{
+    margin: 0;
+
+    color: rgb(160, 160, 160);
+
+    font-size: 15px;
+}
+
+.contact-arrow
+{
+    margin-left: 20px;
+
+    color: rgb(157, 0, 255);
+
+    font-size: 24px;
+}
+
+@media (max-width: 800px)
+{
+    #contact-page
+    {
+        margin-top: 3rem;
+    }
+
+    .contact-card
+    {
+        padding: 30px;
+    }
+
+    .contact-header h1
+    {
+        font-size: 40px;
+    }
+}

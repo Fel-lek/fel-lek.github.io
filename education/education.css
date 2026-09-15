@@ -87,11 +87,11 @@
 
     color: rgb(157, 0, 255);
 
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 3px;
+    margin: 5px;
 }
 
 .education-content
